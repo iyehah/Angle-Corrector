@@ -57,7 +57,7 @@ class AngleCorrectorApp:
         self.root.title("Angle Corrector")
         self.root.geometry("1000x700")
         self.root.resizable(True, True)
-        
+        self.root.iconbitmap("icon.ico")
         ctk.set_appearance_mode("system")  # system default theme
         ctk.set_default_color_theme("blue")
 
